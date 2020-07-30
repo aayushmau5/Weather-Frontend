@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: skyblue;
+}
+.search-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+input {
+  position: relative;
+  left: -10%;
+  width: 120%;
+  border: 10px solid #f7f7f7;
+  border-radius: 5px;
+  padding: 18px;
+  font-size: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 5px gray, inset 0 0 2px rgb(194, 188, 188);
+  z-index: 2;
+}
+.suggestions {
+  list-style: none;
+  font-family: "Noto Sans JP", sans-serif;
+}
+li {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0 0 5px 5px;
+  border: 1px solid rgb(195, 184, 184);
+  padding: 20px;
+  font-size: 1.2rem;
+  color: rgb(41, 36, 36);
+  box-shadow: 0 0 2px rgb(136, 131, 131);
+  display: flex;
+  justify-content: space-between;
+}
+.hl {
+  background: rgb(87, 182, 177);
+}
